@@ -103,3 +103,46 @@ nav a {
   border-radius: 10px;
   margin-top: 10px;
 }
+
+#second-section {
+  background-color: white;
+  height: 70vh;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 60px;
+}
+
+.frame-group {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame-container {
+  display: flex;
+  flex-flow: column wrap;
+  width: 180px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.frame {
+  height: 180px;
+  width: 180px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 20px;
+  border-color: #3882F6;
+  background-color: white;
+}
+
+.info-text {
+  color: #1F2937;
+  text-align: center;
+}
